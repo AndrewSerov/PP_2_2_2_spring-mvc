@@ -1,4 +1,4 @@
-package web;
+package web.entity;
 
 public class Car {
     String model;
@@ -9,6 +9,18 @@ public class Car {
         this.model = model;
         this.price = price;
         this.year = year;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public int getYear() {
+        return year;
     }
 
     @Override
